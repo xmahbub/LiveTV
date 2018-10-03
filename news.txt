@@ -1,0 +1,4 @@
+==============BD Live TV================
+      You are using 1.0.0 version. 
+      It is a beta testing version.
+      New version coming soon.

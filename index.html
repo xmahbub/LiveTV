@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>
+LiveTV
+</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B22222;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+body {
+
+    background-image: url("images/rain.webp"), url("images/rain.webp");
+
+    background-color: 
+#000000;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+</style>
+</body>
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+  <li><a href="news.txt">News</a></li>
+  <li><a href="https://m.facebook.com/Gr3enKiD">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<b><font size="3" color="red">LiveTV</font></b>
+<table style="width:100%">
+  <tr>
+    <td></div> 
+							<div class="antitle"></div>
+						 
+						</div>
+
+
+						<div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="atn">
+									<img width="300" height="100" src="images/atn.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div>
+							<div class="antitle"></div>
+						 
+						</div></td>
+    <td>  <div class="antitle"></div>
+						 
+						</div>
+
+
+						<div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="btv">
+									<img width="300" height="100" src="images/btv.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div>
+							<div class="antitle"></div>
+						 
+						</div></td>
+    <td> <div class="antitle"></div>
+						 
+						</div>
+
+
+						<div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="ind">
+									<img width="300" height="100"src="images/ind.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div> </td>
+  </tr>
+  <tr>
+    <td><div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="mas">
+									<img width="300" height="100" src="images/mas.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div></td>
+    <td><div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="des">
+									<img width="300" height="100" src="images/des.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div></td>
+    <td><div class="ancol-sm-3 col-xs-6">
+							<div class="animage">
+								<a href="ntv">
+									<img width="300" height="100" src="images/ntv.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />								</a>
+							</div></td>
+  </tr>
+  
+<button class="open-button" onclick="openForm()">Test BTV</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <script src="/JS/file.js"></script> ... <style> video { width: 200px; height: 100px; } </style> ... <body> <div> <video data-dashjs-player autoplay src="http://103.230.105.252:1935/live/btv/manifest.mpd" controls></video> </div> </body>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
+</script>
+</html>
