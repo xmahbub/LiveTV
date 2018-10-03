@@ -5,7 +5,7 @@ Bangladeshi Live TV Forum Script 1.0.0
 
 
 ### What is LiveTV BD ?
-It's a simple php forum script basicaly it's a Live TB forum.Some Bangladeshi channel is builtin installed in this forum.
+It's a simple php forum script. Basicaly it's a Live TB forum.Some Bangladeshi channel is builtin installed in this forum.
 
 <br/><br/><br/>
 
